@@ -41,10 +41,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Registrate</a>
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#registro">Registrate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Iniciar Sesion</a>
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#iniciasion">Iniciar Sesion</a>
                         </li>
                     </ul>
                 </div>
@@ -134,7 +134,8 @@
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                         <div class="card border-0">
-                            <a href="reptiles.html"> <img class="card-img-top rounded-circle" src="img/categorias/reptiles.jpeg" alt="Title" /> </a>
+                            <a href="reptiles.html"> <img class="card-img-top rounded-circle"
+                                    src="img/categorias/reptiles.jpeg" alt="Title" /> </a>
                             <div class="card-body">
                                 <h4 class="card-title text-bg-success">Reptiles</h4>
                             </div>
@@ -157,29 +158,40 @@
                 <div class="col-3 text-center">
                     <ul class="list-group-flush">
                         <h5>Centros participantes</h5>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://www.ies-azarquiel.es/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://www.ies-azarquiel.es/">I.E.S.
                                 Azarquiel</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://www.iesjuanbosco.es/ ">I.E.S. Juan
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://www.iesjuanbosco.es/ ">I.E.S. Juan
                                 Bosco</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://iesmaestredecalatrava.es/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://iesmaestredecalatrava.es/">I.E.S.
                                 Maestre de Calatrava</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="https://cifpvirgendegracia.com/">C.I.F.P.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="https://cifpvirgendegracia.com/">C.I.F.P.
                                 Virgen de Gracia</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://www.iesgregorioprieto.com/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://www.iesgregorioprieto.com/">I.E.S.
                                 Gregorio </a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="https://www.iespedromercedes.es/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="https://www.iespedromercedes.es/">I.E.S.
                                 Pedro Mercedes</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://briandademendoza.es/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://briandademendoza.es/">I.E.S.
                                 Brianda de Mendoza</a></li>
-                        <li class="list-group-item text-white"><a class="nav-link" href="http://riberadeltajo.es/nuevaweb/">I.E.S.
+                        <li class="list-group-item text-white"><a class="nav-link"
+                                href="http://riberadeltajo.es/nuevaweb/">I.E.S.
                                 Ribera del Tajo</a></li>
                     </ul>
                 </div>
                 <div class="col-3 text-center">
                     <ul class="list-group-flush">
-                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link" href="quienessomos.html">Quienes somos</a></li>
-                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link" href="#">Privacidad</a></li>
-                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
+                                href="quienessomos.html">Quienes somos</a></li>
+                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
+                                data-bs-toggle="modal" data-bs-target="#privacidad">Privacidad</a></li>
+                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
+                                href="#">Contacto</a></li>
                     </ul>
 
                 </div>
@@ -192,6 +204,163 @@
         </div>
         <p class="text-center m-0">Catalogo de animales &copy;S1DAM - S1DAM</p>
     </footer>
+
+
+
+    <!-- REGISTRO -->
+    <a type="categoría" data-bs-toggle="modal" data-bs-target="#registro"></a>
+    <!-- Modal Body -->
+    <div class="modal fade" id="registro" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm modal-lg" role="document">
+            <div class="modal-content bg-light">
+                <div class="text-center">
+                    <h2 class="modal-title" id="modalTitleId">Registro de usuario</h2>
+                </div>
+                <div class="modal-body"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="modal fade" id="modallogin" tabindex="-1" data-bs-></div>
+
+                    <div class="container">
+                        <form class="bg-white p-4">
+                            <div class="form-group">
+                                <label for="name">Usuario:</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group  modal-xl">
+                                <label for="password">Contraseña:</label>
+                                <input type="password" class="form-control" id="password" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Repite la contraseña:</label>
+                                <input type="password" class="form-control" id="password" rows="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="adress">Dirección:</label>
+                                <input type="adress" class="form-control" id="adress" />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono:</label>
+                                <input type="phone" class="form-control" id="phone" />
+                            </div>
+                            <button type="submit" class="btn btn-success mt-2 w-100">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INICIO -->
+    <a type="button" data-bs-toggle="modal" data-bs-target="#iniciasion">
+    </a>
+    <!-- Modal Body -->
+    <div class="modal fade" id="iniciasion" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content bg-light">
+                <div class="text-center">
+                    <h2 class="modal-title" id="modalTitleId">Inicio de sesión</h2>
+                </div>
+                <div class="modal-body"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="modal fade" id="modallogin" tabindex="-1" data-bs-></div>
+
+                    <div class="container">
+                        <form class="bg-white p-3">
+                            <div class="form-group">
+                                <label for="name">Usuario:</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña:</label>
+                                <input type="password" class="form-control" id="password" />
+                            </div>
+                            <button type="button" class="btn btn-success p-1 text-center w-100 mt-2">
+                                Entrar
+                            </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRIVACIDAD -->
+    <a data-bs-toggle="modal" data-bs-target="#privacidad">
+    </a>
+    <!-- Modal Body -->
+    <div class="modal fade" id="privacidad" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                        Privacidad
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center p-2">Términos y Condiciones de uso</h2>
+                    <h3>1. Datos generales</h3>
+                    <h5><strong>De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
+                            Sociedad de la
+                            Información y de Comercio Electrónico ponemos a su disposición los siguientes datos:
+                            <br></strong></h5>
+                    <h5>catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF 8556677. Inscrita en
+                        el
+                        Registro
+                        Mercantil de Talavera de la Reina, Vol. xxxx, Folio xxxx, Hoja xxxx, Inscripción xxx. <br>
+                        <br>
+                        En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
+                        animales,
+                        especies, y características. <strong>Su principal objetivo </strong>es facilitar a los
+                        clientes
+                        y al público en general, la
+                        información relativa a la empresa, a los productos y servicios que se ofrecen.
+                    </h5>
+                    <h3>2. Política de privacidad</h3>
+                    <h5>En cumplimiento de lo dispuesto en la <strong>Ley Orgánica 15/1999, de 13 de Diciembre, de
+                            Protección
+                            de Datos de Carácter Personal (LOPD)</strong> se informa al usuario que todos los datos
+                        que
+                        nos
+                        proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de
+                        catalogodeanimales.es. <br> <br>
+                        Siempre <strong>se va a respetar la confidencialidad de sus datos personales</strong> que
+                        sólo
+                        serán utilizados con
+                        la finalidad de gestionar los servicios ofrecidos, atender a las solicitudes que nos
+                        plantee,
+                        realizar
+                        tareas administrativas, así como remitir información técnica, comercial o publicitaria por
+                        vía
+                        ordinaria o
+                        electrónica. <br> <br>
+                        Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a Ia
+                        sede
+                        de Ia
+                        empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
+                        contacto@catalogodeanimales.es o llámanos al 777888999.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(
+            document.getElementById("modalId"),
+            options,
+        );
+    </script>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
