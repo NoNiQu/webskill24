@@ -233,12 +233,13 @@
                 </div>
                 <div class="col-3 text-center">
                     <ul class="list-group-flush">
-                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link" href="quienessomos.html">Quienes
+                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
+                                href="quienessomos.html">Quienes
                                 somos</a></li>
                         <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
                                 data-bs-toggle="modal" data-bs-target="#privacidad">Privacidad</a></li>
-                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link"
-                                href="#">Contacto</a></li>
+                        <li class="list-group-item text-decoration-none text-white"><a class="nav-link" type="categoría"
+                                data-bs-toggle="modal" data-bs-target="#contacto">Contacto</a></li>
                     </ul>
 
                 </div>
@@ -393,6 +394,46 @@
                         de Ia
                         empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
                         contacto@catalogodeanimales.es o llámanos al 777888999.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <a type="categoría" data-bs-toggle="modal" data-bs-target="#contacto"></a>
+    <!-- Modal Body -->
+    <div class="modal fade" id="contacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm modal-lg" role="document">
+            <div class="modal-content bg-light">
+                <div class="text-center">
+                    <h2 class="modal-title" id="modalTitleId">Escribe un comentario para contactar</h2>
+                </div>
+                <div class="modal-body"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="modal fade" id="modallogin" tabindex="-1" data-bs-></div>
+
+                    <div class="container">
+                        <form class="bg-white p-4">
+                            <div class="form-group">
+                                <label for="name">Nombre:</label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Tu Email:</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div>
+                                <label for="comentario">Comentarios:</label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" style="height: 100px"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success mt-2 w-100">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
                 </div>
             </div>
         </div>
